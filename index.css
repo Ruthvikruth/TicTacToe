@@ -1,0 +1,29 @@
+body
+{
+    font-family: cursive;
+    background-color: #1e75cb;
+    padding-top: 30px;
+    text-align: center;
+}
+
+p
+{
+    font-size: 40px;
+}
+
+button
+{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: all 0.1s ease-in;
+    font-family: cursive;
+}
+
+button:hover
+{
+    background-color: blue;
+    transition: all 0.1s ease-in;
+}

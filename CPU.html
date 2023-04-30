@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="icon" href="Tic Tac Toe Logo.png">
+    <link rel="stylesheet" href="TicTacToe.css">
+    <head>
+        <title>Vs CPU</title>
+        <script src="CPU.js"></script>
+    </head>
+
+    <body>
+        <div style="font-family: cursive;" class="turn"><center>Vs CPU Mode</center></div>
+        <span id="overall-grid">
+            <div onclick="grid1()" class="grid-item" id="item1"></div>
+            <div onclick="grid2()" class="grid-item" id="item2"></div>
+            <div onclick="grid3()" class="grid-item" id="item3"></div>
+
+            <div onclick="grid4()" class="grid-item" id="item4"></div>
+            <div onclick="grid5()" class="grid-item" id="item5"></div>
+            <div onclick="grid6()" class="grid-item" id="item6"></div>
+
+            <div onclick="grid7()" class="grid-item" id="item7"></div>
+            <div onclick="grid8()" class="grid-item" id="item8"></div>
+            <div onclick="grid9()" class="grid-item" id="item9"></div>
+        </span>
+        <br>
+
+        <center>
+            <button onclick="Reset()">Reset</button>
+            <br>
+            <span style="font-family: cursive;" id="turn" class="turn">You start first!</span>
+        </center>
+    </body>
+</html>
